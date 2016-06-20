@@ -7,7 +7,6 @@ import com.serviceprotocolfacade.hessian.CommunicationService;
 
 public class HessianClientExp {
 
-	
 	public static void main(String[] args) {
 		String url = "http://localhost:8080/communication-service";
 		HessianProxyFactory factory = new HessianProxyFactory();
