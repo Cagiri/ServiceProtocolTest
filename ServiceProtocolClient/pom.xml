@@ -26,7 +26,15 @@
 			<artifactId>hessian</artifactId>
 			<version>4.0.38</version>
 		</dependency>
-		
+
+		<!-- SpringBoot -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>1.3.5.RELEASE</version>
+		</dependency>
+		<!-- /SpringBoot -->
+
 		<!-- LocalDepedencies -->
 		<dependency>
 			<groupId>ServiceProtocolFacade</groupId>
@@ -34,8 +42,8 @@
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- /LocalDepedencies -->
-		
+
 	</dependencies>
-	
-	
+
+
 </project>
