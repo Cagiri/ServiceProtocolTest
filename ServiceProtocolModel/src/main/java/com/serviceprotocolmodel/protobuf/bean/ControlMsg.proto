@@ -1,0 +1,9 @@
+package com.serviceprotocolmodel.protobuf.bean;
+
+option java_package = "";
+option java_outer_classname = "ControlMsg";
+
+message Msg {
+    required int32 id = 1;
+    required string message = 2;
+}
