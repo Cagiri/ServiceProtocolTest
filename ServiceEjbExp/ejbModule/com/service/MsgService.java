@@ -16,7 +16,7 @@ public class MsgService implements MsgServiceRemote {
 
 	@Override
 	public String sendMsg(String str) {
-
+ 
 		return str + " msg sending...";
 	}
 
